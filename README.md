@@ -35,4 +35,4 @@ Digite a seguinte frase na barra de pesquisa que aparecer:
 
 # Terminal
 
-Para ver as configurações do Terminal veja o arquivo [TERMINAL.md](https://github.com/ArthurRCastilho/MyVSCodeSettings/TERMINAL.md/)
+Para ver as configurações do Terminal veja o arquivo [TERMINAL.md](https://github.com/ArthurRCastilho/MyVSCodeSettings/blob/main/TERMINAL.md)
