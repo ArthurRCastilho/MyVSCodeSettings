@@ -16,7 +16,7 @@ Além das modificações feitas no vídeo, também configurei o VSCode com as mi
 
 Para copiar as minhas configurações é simples: <br>
 
-1. Abra o arquivo [MyVSCodeSettings](https://github.com/ArthurRCastilho/MyVSCodeSettings/MyVSCodeSettings.json/)
+1. Abra o arquivo [MyVSCodeSettings](https://github.com/ArthurRCastilho/MyVSCodeSettings/blob/main/MyVSCodeSettings.json)
 2. Copie todo o código
 3. No seu VSCode abra as configurações do seu VSCode da seguinte forma
 ```
@@ -30,7 +30,7 @@ Digite a seguinte frase na barra de pesquisa que aparecer:
 ```
     Abrir as Configurações do Usuário (JSON)
 ```
-4. Cole todo o código de [MyVSCodeSettings](https://github.com/ArthurRCastilho/MyVSCodeSettings/MyVSCodeSettings.json/)
+4. Cole todo o código de [MyVSCodeSettings](https://github.com/ArthurRCastilho/MyVSCodeSettings/blob/main/MyVSCodeSettings.json)
 5. Salve o arquivo json e reinicie o seu VSCode
 
 # Terminal
