@@ -8,7 +8,7 @@ Todas as configurações foram feitas através [deste vídeo](https://youtu.be/b
 
 ## Layout
 
-<img src="./imgs/TerminalMac01.jpg" alt="TerminalMac01"> <img src="./imgs/WarpTerminal.jpg" alt="WarpTerminal"> <img src="./imgs/GitFormularioLayout.jpg" alt="GitFormulario"> 
+<img src="./imgs/TerminalMac01.jpg" alt="TerminalMac01" width="500px"> <img src="./imgs/WarpTerminal.jpg" alt="WarpTerminal" width="500px"> <img src="./imgs/GitFormularioLayout.jpg" alt="GitFormulario" width="500px"> 
 
 ## Como instalar o terminal
 
