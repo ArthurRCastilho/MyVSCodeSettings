@@ -1,0 +1,119 @@
+{
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": true,
+    "breadcrumbs.enabled": true,
+    "workbench.activityBar.location": "default",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.statusBar.visible": true,
+    "window.titleBarStyle": "custom",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 10,
+        },
+        "frame": false,
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.stylesheet": {
+        ".title-label > h2": "display: None",
+        "pane-body": "padding: 8px",
+    },
+    "explorer.fileNesting.enabled": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1",
+        "Q_NEW_SESSION": "1"
+    },
+    "dart.lineLength": 75,
+    "window.zoomLevel": -1,
+    "code-runner.runInTerminal": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            75,
+            100
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+
+    "files.autoSave": "afterDelay",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "editor.minimap.size": "fill",
+    "update.mode": "manual",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "githubIssues.queries": [
+        {
+            "label": "Meus Problemas",
+            "query": "is:open assignee:${user} repo:${owner}/${repository}",
+            "groupBy": [
+                "milestone"
+            ]
+        },
+        {
+            "label": "Problemas criados",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Problemas Recentes",
+            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "dart.flutterCreateAndroidLanguage": "kotlin",
+    "dart.offline": true,
+    "dart.flutterCreateOrganization": "com.AppAutoSustentavel.PekiCode",
+    "editor.accessibilitySupport": "off",
+    "dart.flutterCreateIOSLanguage": "swift",
+    "git.autofetch": true,
+    "workbench.colorTheme": "Min Dark",
+    "print.folder.fileNames": true,
+    "print.folder.include": [],
+    "print.folder.exclude": [
+        "{bin,obj,out}",
+        "node_modules",
+        "data",
+        "**/*.{bin,exe,dll,hex,pdb,pdf,pfx,png,jpg,gif,bmp,suo,design}"
+    ],
+    "print.folder.maxLines": 1200,
+    "print.folder.maxFiles": 30,
+    "print.folder.includeFileList": false,
+    "dart.flutterCreatePlatforms": [
+        "android",
+        "ios"
+    ],
+    "dart.devToolsLocation": {
+        
+        "default": "beside",
+        "inspector": "sidebar"
+    },
+    "diffEditor.codeLens": true,
+    "yaml.schemas": {
+        "file:///Users/arthurlavidali/.vscode/extensions/atlassian.atlascode-3.8.15/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+}
