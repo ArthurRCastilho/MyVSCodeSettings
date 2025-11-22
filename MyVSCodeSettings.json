@@ -1,30 +1,30 @@
 {
-    "workbench.colorTheme": "Min Dark",
     "symbols.hidesExplorerArrows": false,
     "workbench.iconTheme": "symbols",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
-    "editor.rulers": [80, 120],
+    "editor.wordWrapColumn": 180,
+    "editor.rulers": [180],
+    "editor.wordWrap": "off",
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
     "workbench.editor.labelFormat": "short",
     "explorer.compactFolders": false,
-    "editor.semanticHighlighting.enabled":true,
+    "editor.semanticHighlighting.enabled": true,
     "breadcrumbs.enabled": true,
-    "workbench.activityBar.location": "side",
+    "workbench.activityBar.location": "default",
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
-    "workbench.statusBar.visible": true,
-    "window.titleBarStyle": "native",
+    "window.titleBarStyle": "custom",
     "apc.electron": {
         "titleBarStyle": "hiddenInset",
         "trafficLightPosition": {
             "x": 11,
-            "y": 10
+            "y": 10,
         },
-        "frame": false
+        "frame": false,
     },
     "apc.header": {
         "height": 36
@@ -34,32 +34,31 @@
     },
     "apc.stylesheet": {
         ".title-label > h2": "display: None",
-        "pane-body": "padding: 8px"
-    },  
+        "pane-body": "padding: 8px",
+    },
     "explorer.fileNesting.enabled": false,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-
-
-
     "terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
+        "FIG_NEW_SESSION": "1",
+        "Q_NEW_SESSION": "1"
     },
+    "dart.lineLength": 180,
     "window.zoomLevel": -1,
     "code-runner.runInTerminal": true,
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
         "editor.rulers": [
-        100, 120
+            75,
+            100
         ],
         "editor.selectionHighlight": false,
-        "editor.suggestSelection": "first"
-       ,
-        "editor.tabCompletion": "onlySnippets"
-       ,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": "off"
     },
+
     "files.autoSave": "afterDelay",
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
@@ -83,6 +82,55 @@
             "label": "Problemas Recentes",
             "query": "state:open repo:${owner}/${repository} sort:updated-desc"
         }
-    ]
+    ],
+    "dart.flutterCreateAndroidLanguage": "kotlin",
+    "dart.offline": true,
+    "dart.flutterCreateOrganization": "com.AppAutoSustentavel.PekiCode",
+    "editor.accessibilitySupport": "off",
+    "dart.flutterCreateIOSLanguage": "swift",
+    "git.autofetch": true,
+    "workbench.colorTheme": "Min Dark",
+    "print.folder.fileNames": true,
+    "print.folder.include": [],
+    "print.folder.exclude": [
+        "{bin,obj,out}",
+        "node_modules",
+        "data",
+        "**/*.{bin,exe,dll,hex,pdb,pdf,pfx,png,jpg,gif,bmp,suo,design}"
+    ],
+    "print.folder.maxLines": 1200,
+    "print.folder.maxFiles": 30,
+    "print.folder.includeFileList": false,
+    "dart.flutterCreatePlatforms": [
+        "android",
+        "ios"
+    ],
+    "dart.devToolsLocation": {
+        
+        "default": "beside",
+        "inspector": "sidebar"
+    },
+    "diffEditor.codeLens": true,
+    "yaml.schemas": {
+        "file:///Users/arthurlavidali/.vscode/extensions/atlassian.atlascode-4.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "githubPullRequests.pullBranch": "never",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "464cb596-8bda-4abc-b723-b1dba36338c7",
+        "projectKey": "BI"
+    },
 }
-
